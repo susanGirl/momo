@@ -1,0 +1,31 @@
+//
+//  MyHeader.pch
+//  GD_GoodMom
+//
+//  Created by lanou3g on 16/5/23.
+//  Copyright © 2016年 温哲. All rights reserved.
+//
+
+#ifndef MyHeader_pch
+#define MyHeader_pch
+
+
+#import "UIView+XMGExtension.h"
+#import "HomeListViewController.h"
+#import "FriendsListViewController.h"
+#import "ToolListViewController.h"
+#import "LoginViewController.h"
+#import "RegisterViewController.h"
+#import "UserViewController.h"
+#import "User.h"
+
+#import "FileHandle.h"
+
+#import <AVOSCloud/AVOSCloud.h>
+
+#define COLOR_arc   arc4random_uniform(100)/ 100.0 
+
+
+#endif /* MyHeader_pch */
+
+
